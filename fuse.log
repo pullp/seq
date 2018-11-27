@@ -1,0 +1,45 @@
+Running: D:\ise\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o E:/OneDrive - stu.hit.edu.cn/codes/verilog/seq_v2_1/SeqTest_isim_beh.exe -prj E:/OneDrive - stu.hit.edu.cn/codes/verilog/seq_v2_1/SeqTest_beh.prj work.SeqTest work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/OneDrive - stu.hit.edu.cn/codes/verilog/seq_v2_1/PickPc.v" into library work
+Analyzing Verilog file "E:/OneDrive - stu.hit.edu.cn/codes/verilog/seq_v2_1/Merge.v" into library work
+Analyzing Verilog file "E:/OneDrive - stu.hit.edu.cn/codes/verilog/seq_v2_1/ImmExtend.v" into library work
+Analyzing Verilog file "E:/OneDrive - stu.hit.edu.cn/codes/verilog/seq_v2_1/Add.v" into library work
+Analyzing Verilog file "E:/OneDrive - stu.hit.edu.cn/codes/verilog/seq_v2_1/RegFiles.v" into library work
+Analyzing Verilog file "E:/OneDrive - stu.hit.edu.cn/codes/verilog/seq_v2_1/PickWbData.v" into library work
+Analyzing Verilog file "E:/OneDrive - stu.hit.edu.cn/codes/verilog/seq_v2_1/Pc.v" into library work
+Analyzing Verilog file "E:/OneDrive - stu.hit.edu.cn/codes/verilog/seq_v2_1/NewPc.v" into library work
+Analyzing Verilog file "E:/OneDrive - stu.hit.edu.cn/codes/verilog/seq_v2_1/InstrDecode.v" into library work
+Analyzing Verilog file "E:/OneDrive - stu.hit.edu.cn/codes/verilog/seq_v2_1/ImmOrRt.v" into library work
+Analyzing Verilog file "E:/OneDrive - stu.hit.edu.cn/codes/verilog/seq_v2_1/DataMem.v" into library work
+Analyzing Verilog file "E:/OneDrive - stu.hit.edu.cn/codes/verilog/seq_v2_1/CodeMem.v" into library work
+Analyzing Verilog file "E:/OneDrive - stu.hit.edu.cn/codes/verilog/seq_v2_1/Alu.v" into library work
+Analyzing Verilog file "E:/OneDrive - stu.hit.edu.cn/codes/verilog/seq_v2_1/Seq.v" into library work
+Analyzing Verilog file "E:/OneDrive - stu.hit.edu.cn/codes/verilog/seq_v2_1/SeqTest.v" into library work
+Analyzing Verilog file "D:/ise/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module Pc
+Compiling module Add
+Compiling module Merge
+Compiling module ImmExtend
+Compiling module PickPc
+Compiling module NewPc
+Compiling module CodeMem
+Compiling module InstrDecode
+Compiling module RegFiles
+Compiling module ImmOrRt
+Compiling module Alu
+Compiling module DataMem
+Compiling module PickWbData
+Compiling module Seq
+Compiling module SeqTest
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 16 Verilog Units
+Built simulation executable E:/OneDrive - stu.hit.edu.cn/codes/verilog/seq_v2_1/SeqTest_isim_beh.exe
+Fuse Memory Usage: 28664 KB
+Fuse CPU Usage: 858 ms

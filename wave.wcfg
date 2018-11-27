@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/OneDrive - stu.hit.edu.cn/codes/verilog/seq_v2/SeqTest_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="SeqTest" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/SeqTest/CLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SeqTest/RESET" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SeqTest/uut/CLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SeqTest/uut/RESET" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SeqTest/uut/led" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">led[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SeqTest/uut/old_pc_l" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">old_pc_l[31:0]</obj_property>
+      <obj_property name="ObjectShortName">old_pc_l[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SeqTest/uut/new_pc_l" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">new_pc_l[31:0]</obj_property>
+      <obj_property name="ObjectShortName">new_pc_l[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SeqTest/uut/instr_read_l" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instr_read_l[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_read_l[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SeqTest/uut/instr_l" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instr_l[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_l[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SeqTest/uut/imm_l" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">imm_l[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imm_l[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SeqTest/uut/rs_rt_l" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rs_rt_l[9:0]</obj_property>
+      <obj_property name="ObjectShortName">rs_rt_l[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SeqTest/uut/rwd_l" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rwd_l[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rwd_l[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SeqTest/uut/zf_l" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">zf_l</obj_property>
+      <obj_property name="ObjectShortName">zf_l</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SeqTest/uut/opcode_l" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">opcode_l[5:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode_l[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SeqTest/uut/val_rs_l" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">val_rs_l[31:0]</obj_property>
+      <obj_property name="ObjectShortName">val_rs_l[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SeqTest/uut/val_rt_l" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">val_rt_l[31:0]</obj_property>
+      <obj_property name="ObjectShortName">val_rt_l[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SeqTest/uut/wb_data_l" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_data_l[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_data_l[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SeqTest/uut/imm_or_rt_l" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">imm_or_rt_l[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imm_or_rt_l[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SeqTest/uut/alu_out_l" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_out_l[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out_l[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SeqTest/uut/mem_out_l" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_out_l[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_out_l[31:0]</obj_property>
+   </wvobject>
+</wave_config>

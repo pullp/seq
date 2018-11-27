@@ -1,0 +1,23 @@
+
+#led pins
+
+NET "led<0>"    LOC="U16"   |   IOSTANDARD=LVCMOS33 |   PULLDOWN    |   SLEW=SLOW   |   DRIVE=2;
+NET "led<1>"    LOC="V16"   |   IOSTANDARD=LVCMOS33 |   PULLDOWN    |   SLEW=SLOW   |   DRIVE=2;
+NET "led<2>"    LOC="U15"   |   IOSTANDARD=LVCMOS33 |   PULLDOWN    |   SLEW=SLOW   |   DRIVE=2;
+NET "led<3>"    LOC="V15"   |   IOSTANDARD=LVCMOS33 |   PULLDOWN    |   SLEW=SLOW   |   DRIVE=2;
+NET "led<4>"    LOC="M11"   |   IOSTANDARD=LVCMOS33 |   PULLDOWN    |   SLEW=SLOW   |   DRIVE=2;
+NET "led<5>"    LOC="N11"   |   IOSTANDARD=LVCMOS33 |   PULLDOWN    |   SLEW=SLOW   |   DRIVE=2;
+NET "led<6>"    LOC="R11"   |   IOSTANDARD=LVCMOS33 |   PULLDOWN    |   SLEW=SLOW   |   DRIVE=2;
+NET "led<7>"    LOC="T11"   |   IOSTANDARD=LVCMOS33 |   PULLDOWN    |   SLEW=SLOW   |   DRIVE=2;
+
+
+#Reset pins
+
+NET "RESET"   LOC="B8"    |   IOSTANDARD=LVCMOS33;
+
+#Clock pins
+
+NET "CLK" LOC="V10"   |   IOSTANDARD=LVCMOS33;
+
+Net CLK TNM_NET = sys_clk;
+TIMESPEC TS_Clk = PERIOD sys_clk 1 kHz;
