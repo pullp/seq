@@ -20,7 +20,11 @@
 //////////////////////////////////////////////////////////////////////////////////
 module Seq(
     input CLK,
-    input RESET
+    input RESET,
+	 output[31:0] pc_out,
+	 output[31:0] instr_out,
+	 output[31:0] alu_out,
+	 output[31:0] memdata_out
     );
 	 
 	 wire[31:0] old_pc_l;
@@ -36,6 +40,13 @@ module Seq(
 	 wire zf_l;
 	 
 	 wire[31:0] alu_out_l;
+	 wire[31:0] mem_out_l;
+	 
+	 assign pc_out = old_pc_l;
+	 assign instr_out = instr_l;
+	 assign alu_out = alu_out_l;
+	 assign memdata_out = mem_out_l;
+	 assign memdata_out = mem_out_l;
 //module Pc(
 //    input CLK,
 //    input RESET,
@@ -115,7 +126,6 @@ module Seq(
 //    input [5:0] opcode,
 //    output [31:0] out
 //    );
-	wire[31:0] mem_out_l;
 	DataMem data_mem (CLK, alu_out_l, val_rt_l, opcode_l, mem_out_l);
 	
 //module PickWbData(

@@ -42,6 +42,7 @@
 *_summary.xml
 *_usage.xml
 *_xst.xrpt
+*.wdb
 
 # iMPACT generated files
 _impactbatch.log
