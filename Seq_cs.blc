@@ -20,12 +20,12 @@ NGCBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 4421176 kilobytes
+Total memory usage is 4421192 kilobytes
 
 Writing NGC file "E:/OneDrive -
 stu.hit.edu.cn/codes/verilog/seq_v2_1/Seq_cs.ngc" ...
-Total REAL time to NGCBUILD completion:  2 sec
-Total CPU time to NGCBUILD completion:   2 sec
+Total REAL time to NGCBUILD completion:  3 sec
+Total CPU time to NGCBUILD completion:   3 sec
 
 Writing NGCBUILD log file "E:/OneDrive -
 stu.hit.edu.cn/codes/verilog/seq_v2_1/Seq_cs.blc"...
