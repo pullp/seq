@@ -2,11 +2,12 @@ Release 14.7 ngcbuild P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 Command Line: ngcbuild.exe -dd E:/OneDrive -
-stu.hit.edu.cn/codes/verilog/seq_v2/_ngo -p xc6slx16-csg324-3 -i E:\OneDrive -
-stu.hit.edu.cn\codes\verilog\seq_v2\Seq.ngc E:\OneDrive -
-stu.hit.edu.cn\codes\verilog\seq_v2\Seq_cs.ngc
+stu.hit.edu.cn/codes/verilog/seq_v2_1/_ngo -p xc6slx16-csg324-3 -i E:\OneDrive -
+stu.hit.edu.cn\codes\verilog\seq_v2_1\Seq.ngc E:\OneDrive -
+stu.hit.edu.cn\codes\verilog\seq_v2_1\Seq_cs.ngc
 
-Reading NGO file "E:/OneDrive - stu.hit.edu.cn/codes/verilog/seq_v2/Seq.ngc" ...
+Reading NGO file "E:/OneDrive - stu.hit.edu.cn/codes/verilog/seq_v2_1/Seq.ngc"
+...
 
 Partition Implementation Status
 -------------------------------
@@ -19,12 +20,12 @@ NGCBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 4420264 kilobytes
+Total memory usage is 4421176 kilobytes
 
-Writing NGC file "E:/OneDrive - stu.hit.edu.cn/codes/verilog/seq_v2/Seq_cs.ngc"
-...
-Total REAL time to NGCBUILD completion:  3 sec
-Total CPU time to NGCBUILD completion:   3 sec
+Writing NGC file "E:/OneDrive -
+stu.hit.edu.cn/codes/verilog/seq_v2_1/Seq_cs.ngc" ...
+Total REAL time to NGCBUILD completion:  2 sec
+Total CPU time to NGCBUILD completion:   2 sec
 
 Writing NGCBUILD log file "E:/OneDrive -
-stu.hit.edu.cn/codes/verilog/seq_v2/Seq_cs.blc"...
+stu.hit.edu.cn/codes/verilog/seq_v2_1/Seq_cs.blc"...

@@ -27,8 +27,10 @@ module CodeMem(
 	reg[31:0] instr_reg;
 	assign instr = instr_reg;
 	
-	always@(pc)
-		instr_reg = code_mem[pc];
+	always@(*)
+		begin
+			instr_reg = code_mem[pc];
+		end
 		
     initial
         begin

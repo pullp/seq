@@ -30,18 +30,13 @@ module NewPc(
 	 wire[31:0] bpc;
 	 wire[31:0] imm;
 	 
-	 reg[31:0] one;
-	 
-	 initial
-		begin
-			one = 1;
-		end
+	 reg[31:0] one = 32'b00000000000000000000000000000001;;
 		
 	Add add1 (one, old_pc, inc_pc);
 	
-	Merge merge (old_pc, instr, jpc);
+	Merge merge (old_pc[31:26], instr[25:0], jpc);
 	
-	ImmExtend imm_extend (instr, imm);
+	ImmExtend imm_extend (instr[15:0], imm);
 	
 	Add add2 (inc_pc, imm, bpc);
 	
@@ -54,5 +49,6 @@ module NewPc(
 //    output [31:0] new_pc
 //    );
 	PickPc pick_pc (inc_pc, bpc, jpc, zf, instr[31:26], new_pc);
+	 
 	 
 endmodule

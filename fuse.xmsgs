@@ -5,8 +5,5 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"E:/OneDrive - stu.hit.edu.cn/codes/verilog/seq_v2_1/SeqTest.v" Line 32: Port <arg fmt="%s" index="1">pc_out</arg> is not connected to this instance
-</msg>
-
 </messages>
 

@@ -1,15 +1,4 @@
 
-#led pins
-
-NET "led<0>"    LOC="U16"   |   IOSTANDARD=LVCMOS33 |   PULLDOWN    |   SLEW=SLOW   |   DRIVE=2;
-NET "led<1>"    LOC="V16"   |   IOSTANDARD=LVCMOS33 |   PULLDOWN    |   SLEW=SLOW   |   DRIVE=2;
-NET "led<2>"    LOC="U15"   |   IOSTANDARD=LVCMOS33 |   PULLDOWN    |   SLEW=SLOW   |   DRIVE=2;
-NET "led<3>"    LOC="V15"   |   IOSTANDARD=LVCMOS33 |   PULLDOWN    |   SLEW=SLOW   |   DRIVE=2;
-NET "led<4>"    LOC="M11"   |   IOSTANDARD=LVCMOS33 |   PULLDOWN    |   SLEW=SLOW   |   DRIVE=2;
-NET "led<5>"    LOC="N11"   |   IOSTANDARD=LVCMOS33 |   PULLDOWN    |   SLEW=SLOW   |   DRIVE=2;
-NET "led<6>"    LOC="R11"   |   IOSTANDARD=LVCMOS33 |   PULLDOWN    |   SLEW=SLOW   |   DRIVE=2;
-NET "led<7>"    LOC="T11"   |   IOSTANDARD=LVCMOS33 |   PULLDOWN    |   SLEW=SLOW   |   DRIVE=2;
-
 
 #Reset pins
 

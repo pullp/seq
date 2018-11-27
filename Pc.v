@@ -26,15 +26,14 @@ module Pc(
     );
 	 
 	reg[31:0] pc_reg;
+	initial pc_reg = 32'b00000000000000000000000000000000;
 	assign next_pc = pc_reg; 
 	
-	initial begin
-		pc_reg <= 0;
-	end
-	
-	always@(posedge RESET or negedge CLK)
+	always@(posedge RESET, negedge CLK)
 		begin
 			if (RESET == 1) pc_reg <= 0;
 			else	pc_reg <= coming_pc;
 		end
+		
+		
 endmodule

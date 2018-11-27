@@ -32,7 +32,7 @@ module DataMem(
 	 assign out = read_data;
 	 integer i;
 	 
-	 always@(posedge CLK)
+	 always@(*)
 	  begin
 			read_data <= data_mem[addr];
 		end

@@ -35,7 +35,7 @@ module Alu(
 	 reg zf_reg;
 	 assign zf = zf_reg;
 	 
-	 always@(a or b or opcode)
+	 always@(*)
 	 begin
 		case(opcode)
 			`LDW: tmp = a + b;
@@ -53,8 +53,4 @@ module Alu(
 		endcase
 		zf_reg = (tmp == 0) ? 1'b1 : 1'b0;
 	 end
-	 
-	 
-
-
 endmodule

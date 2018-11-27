@@ -33,11 +33,11 @@ module RegFiles(
 	assign val_rs = rs_reg;
 	assign val_rt = rt_reg;
 	
-	always@(rs_rt or CLK)
-	begin
-		rs_reg <= regs[rs_rt[9:5]];
-		rt_reg <= regs[rs_rt[4:0]];
-	end
+	always@(*)
+		begin
+			rs_reg <= regs[rs_rt[9:5]];
+			rt_reg <= regs[rs_rt[4:0]];
+		end
 	
 	always@(negedge CLK)
 	begin

@@ -31,7 +31,11 @@ module SeqTest;
 	// Instantiate the Unit Under Test (UUT)
 	Seq uut (
 		.CLK(CLK), 
-		.RESET(RESET)
+		.RESET(RESET),
+		.pc_out(),
+		.instr_out(),
+		.alu_out(),
+		.memdata_out()
 	);
 
 	initial begin
@@ -51,7 +55,7 @@ module SeqTest;
 		while(1>0)
 			begin
 			CLK = ~CLK;
-			#40;
+			#20;
 			end
 	end
       

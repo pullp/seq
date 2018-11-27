@@ -85,7 +85,7 @@ module Seq(
 //	 output [31:0] out
 //    );
 
-	ImmExtend imm_extend (instr_l, imm_l);
+	ImmExtend imm_extend (instr_l[15:0], imm_l);
 	
 //module RegFiles(
 //    input CLK,

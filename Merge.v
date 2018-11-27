@@ -19,8 +19,8 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module Merge(
-    input [31:0] old_pc,
-    input [31:0] instr,
+    input [31:26] old_pc,
+    input [25:0] instr,
 	 output [31:0] new_pc
     );
 	 assign new_pc = {old_pc[31:26], instr[25:0]};
