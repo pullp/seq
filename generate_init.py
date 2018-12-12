@@ -1,6 +1,6 @@
-mem_name = 'regs'
+mem_name = 'data_mem'
 reg_size = 32
-reg_count = 32
+reg_count = 256
 
 mem_file = './data.mem'
 
@@ -10,6 +10,7 @@ line_count = len(lines)
 if(line_count != reg_count):
     print('padding zero')
 
+line_count = 0
 code = '\tinitial\n\t\tbegin\n'
 
 
@@ -20,3 +21,5 @@ for i in range(0, reg_count):
 code += '\t\tend'
 
 print code
+
+

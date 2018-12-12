@@ -29,11 +29,24 @@ module Pc(
 	initial pc_reg = 32'b00000000000000000000000000000000;
 	assign next_pc = pc_reg; 
 	
+//	reg[3:0] count = 3'b000;
+//	
+//	always@(negedge CLK)
+//		begin
+//			count = count+1;
+//		end
+	
 	always@(posedge RESET, negedge CLK)
 		begin
 			if (RESET == 1) pc_reg <= 0;
 			else	pc_reg <= coming_pc;
 		end
 		
+//	always@(posedge RESET, count)
+//		begin
+//			if(count != 3'b111) pc_reg <= pc_reg;
+//			else if (RESET == 1) pc_reg <= 0;
+//			else	pc_reg <= coming_pc;
+//		end
 		
 endmodule

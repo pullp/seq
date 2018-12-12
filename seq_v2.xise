@@ -83,6 +83,42 @@
     <file xil_pn:name="chipscope.cdc" xil_pn:type="FILE_CDC">
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
+    <file xil_pn:name="NewPcTest.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="92"/>
+      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="92"/>
+      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="92"/>
+    </file>
+    <file xil_pn:name="CodeMemTest.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="93"/>
+      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="93"/>
+      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="93"/>
+    </file>
+    <file xil_pn:name="InstrDecodeTest.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="94"/>
+      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="94"/>
+      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="94"/>
+    </file>
+    <file xil_pn:name="ImmExtendTest.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="95"/>
+      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="95"/>
+      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="95"/>
+    </file>
+    <file xil_pn:name="RegFilesTest.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="96"/>
+      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="96"/>
+      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="96"/>
+    </file>
+    <file xil_pn:name="AluTest.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="97"/>
+      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="97"/>
+      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="97"/>
+    </file>
   </files>
 
   <properties>
@@ -213,7 +249,7 @@
     <property xil_pn:name="JTAG Pin TDI" xil_pn:value="Pull Up" xil_pn:valueState="default"/>
     <property xil_pn:name="JTAG Pin TDO" xil_pn:value="Pull Up" xil_pn:valueState="default"/>
     <property xil_pn:name="JTAG Pin TMS" xil_pn:value="Pull Up" xil_pn:valueState="default"/>
-    <property xil_pn:name="Keep Hierarchy" xil_pn:value="Yes" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Keep Hierarchy" xil_pn:value="No" xil_pn:valueState="default"/>
     <property xil_pn:name="LUT Combining Map" xil_pn:value="Off" xil_pn:valueState="default"/>
     <property xil_pn:name="LUT Combining Xst" xil_pn:value="Auto" xil_pn:valueState="default"/>
     <property xil_pn:name="Language" xil_pn:value="VHDL" xil_pn:valueState="default"/>
